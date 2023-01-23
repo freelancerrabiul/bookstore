@@ -1,0 +1,80 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav {
+    background-color: wheat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0.5rem;
+    border-bottom: 1px solid burlywood;
+
+}
+
+header {
+    height: 10vh;
+}
+
+main {
+    height: 85vh;
+}
+
+footer {
+    text-align: center;
+    background-color: rebeccapurple;
+    height: 5vh;
+    color: white;
+
+
+}
+
+form>div {
+    text-align: center;
+    margin: 1rem;
+}
+
+.booksView {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+table {
+    padding: 2rem;
+    margin: 2rem;
+    border-collapse: collapse;
+    border: 1px solid lightgrey;
+}
+
+th {
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+td {
+    border: 1px solid black;
+    padding: 1.5rem;
+    font-size: small;
+
+}
+
+.actionTable>button {
+    margin-inline: 0.5rem;
+    padding-inline: 0.5rem;
+
+
+}
+.home {
+    text-align: center;
+}
+.navLink {
+    text-decoration: none;
+    color: black;
+}
+
+.navLink.active {
+    color: purple;
+}
